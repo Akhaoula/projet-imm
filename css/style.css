@@ -1,0 +1,473 @@
+.agile-volt{
+	padding:0;
+	margin:0;
+	background-position: 65% 65%;
+    background-size: cover;
+		
+}
+.agile-volt a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	font-weight:400;
+}
+.agile-volt input[type="button"],input[type="submit"],input[type="text"],input[type="password"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	font-family: 'Exo', sans-serif;
+}
+.agile-volt h1,h2,h3,h4,h5,h6{
+	margin:0;		
+	font-weight:400;
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	font-family: 'Exo', sans-serif;
+}	
+
+#label{
+	color: red;
+	font-size: 20px;
+}
+
+#error{
+	color: red;
+	font-size: 20px;
+}
+
+.clear {
+	clear:both;
+}
+.text-center {
+	text-align:center;
+}
+.agile-volt p{
+	margin:0;
+	font-family: 'Exo', sans-serif;
+}
+.agile-volt span{
+	font-family: 'Exo', sans-serif;
+}
+
+.agile-volt label{
+	margin:0;
+	font-family: 'Exo', sans-serif;
+}
+
+.agile-volt select{
+	font-family: 'Exo', sans-serif;
+}
+.agile-volt option{
+	font-family: 'Exo', sans-serif;
+}
+.agile-volt img{
+	width:100%;
+}
+
+
+/****************** RECHERCHER*************************/
+#search-div{
+	width: 50%;
+	margin: auto;
+
+}
+
+#search-div-rchr{
+	width: 500px;
+	color: black;
+	background:rgba(106, 103, 100, 0.76);
+}
+
+#search-div-btn{
+	background: #099843;
+    color: #fff;
+    width: 120px;
+    height: 48px;
+    font-size: 16px;
+    border: none;
+}
+
+    /*******************************************************************/
+
+
+
+@font-face{
+	font-family: 'Heebo';
+	src:url('../fonts/Heebo.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Exo';
+	src:url('../fonts/Exo.ttf') format('truetype');
+}
+/*--header--*/
+.agile-voltheader h1 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    margin: auto;
+}	
+.agile-voltsub {
+    width: 50%;
+    margin: 0 auto;
+	background: rgba(29, 28, 27, 0.76);
+	box-sizing: border-box;
+    padding: 2em;
+}
+.agile-voltsub h2 {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+	color:#fff;
+    letter-spacing: 2px;
+    padding: 0.2em 0.2em;
+}
+.agile-volt p {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0;
+    padding:1em 0 1em;
+	color:#fff;
+    
+}
+.agile-volt input[type="text"],input[type="password"],input[type="number"],input[type="email"],input[type="tel"] {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 0.8em 0.5em 0.8em;
+	box-sizing:border-box;
+	width: 95%;
+    border: 2px solid #5acae9;
+    outline: none;
+    background: rgba(255, 255, 255, 0.32);
+    color: #fff;
+	
+}
+#select {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1em 0 1em;
+    width: 95%;
+    margin: 1em 0 1em;
+    background: rgba(255, 255, 255, 0.32);
+    color: #fff;
+    letter-spacing: 2px;
+    border: 2px solid #5acae9;
+}
+.agile-voltheader label {
+    color: #00e5ff;
+}
+.agile-volt option {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    background: rgba(40, 37, 37, 0.5);
+    color: #fff;
+    border: 2px solid #9e2929;
+    letter-spacing: 2px;
+}
+.agile-days span.Monday {
+    float: left;
+    width: 25%;
+	font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+	    padding: 0.5em 0;
+}
+.agile-days span.Tuesday {
+    float: left;
+    width: 25%;
+	    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+	    padding: 0.5em 0;
+}
+.agile-days span.Wednesday {
+    float: left;
+    width: 25%;
+	    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+	    padding: 0.5em 0;
+		
+}.agile-days span.Thursday {
+    float: left;
+    width: 25%;
+	    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+	    padding: 0.5em 0;
+}
+.agile-days span.Friday {
+    float: left;
+    width: 25%;
+	    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+	    padding: 0.5em 0;
+}
+.agile-days span.Saturday {
+    float: left;
+    width: 25%;
+	    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+	    padding: 0.5em 0;
+}
+.agile-days span.Sunday {
+    float: left;
+    width: 25%;
+	    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+	    padding: 0.5em 0;
+}
+.agile-volt select {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1em 0 1em;
+    width: 100%;
+		margin: 0em 0 1em;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.32);
+    color: #fff;
+    letter-spacing: 1px;
+    border: 2px solid #5acae9;
+}
+.agile-from {
+    width: 47%;
+    float: left;
+}
+.agile-to {
+    width: 47%;
+    float: left;
+    margin-left: 3%;
+}
+.agile-volt input[type="submit"] {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    background: rgba(3, 157, 66, 0.93);
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 45%;
+    margin: 2em auto 0;
+    display: block;
+    padding: 0.5em 0.5em;
+	cursor:pointer;
+}
+.agile-volt input[type="submit"]:hover {
+    background: #b5334a;
+    color: #fff;
+    transition: 0.5s ease-in;
+}
+::-webkit-input-placeholder{
+	color:#fff;
+}
+::-moz-input-placeholder{
+	color:#fff;
+}
+::-ms-input-placeholder{
+	color:#fff;
+}
+
+@media(max-width:1920px){
+	
+}
+@media(max-width:1680px){
+	
+}
+@media(max-width:1600px){
+	
+}
+@media(max-width:1440px){
+	.agile-voltsub {
+		width: 45%;
+	}
+}
+
+
+@media(max-width:1440px){
+	.search-div {
+		width: 45%;
+	}
+}
+
+
+@media(max-width:1366px){
+	.agile-voltsub {
+		width: 50%;
+	}
+}
+@media(max-width:1280px){
+	.agile-voltsub {
+		width: 55%;
+	}
+}
+@media(max-width:1080px){
+	.agile-voltsub {
+		width: 60%;
+	}
+}
+@media(max-width:1050px){
+	
+}
+@media(max-width:1024px){
+	
+}
+@media(max-width:991px){
+	
+}
+@media(max-width:900px){
+	.agile-voltsub {
+		width: 70%;
+	}
+}
+@media(max-width:800px){
+	.agile-voltsub {
+		width: 75%;
+	}
+}
+@media(max-width:768px){
+	.agile-voltsub {
+		width: 80%;
+	}
+}
+@media(max-width:736px){
+	
+}
+@media(max-width:640px){
+	
+}
+@media(max-width:600px){
+	.agile-voltsub {
+		width: 90%;
+	}
+	.agile-voltheader h1 {
+		font-size: 30px;
+	}
+	footer {
+		font-size: 15px;
+	}
+
+@media(max-width:568px){
+	.agile-voltsub {
+		width: 92%;
+	}
+}
+@media(max-width:480px){
+	.agile-voltheader h1 {
+		font-size: 25px;
+	}
+	.agile-days span.Monday {
+		width: 33%;
+	}
+	.agile-days span.Tuesday {
+		width: 33%;
+	}
+	.agile-days span.Wednesday{
+		width: 33%;
+	}
+	.agile-days span.Thursday {
+		width: 33%;
+	}
+	.agile-days span.Friday {
+		width: 33%;
+	}
+	.agile-days span.Saturday {
+		width: 33%;
+	}
+	.agile-days span.Sunday {
+		width: 33%;
+	}
+}
+@media(max-width:414px){
+	.agile-days span.Monday {
+		width: 50%;
+	}
+	.agile-days span.Tuesday {
+		width: 50%;
+	}
+	.agile-days span.Wednesday{
+		width: 50%;
+	}
+	.agile-days span.Thursday {
+		width: 50%;
+	}
+	.agile-days span.Friday {
+		width: 50%;
+	}
+	.agile-days span.Saturday {
+		width: 50%;
+	}
+	.agile-days span.Sunday {
+		width: 50%;
+	}
+}
+@media(max-width:384px){
+	.agile-voltsub h2 {
+		font-size: 30px;
+	}
+}
+@media(max-width:375px){
+	
+}
+@media(max-width:320px){
+	.agile-voltsub h2 {
+		font-size: 20px;
+	}
+	.agile-voltsub {
+		width: 100%;
+	}
+	.agile-from {
+		width: 100%;
+	}
+	.agile-to {
+		width: 100%;
+	    margin-left: 1%;
+	}
+}
+/*--/responsive--*/
